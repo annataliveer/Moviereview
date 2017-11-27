@@ -1,0 +1,17 @@
+.contentBlock {
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+}
+.contentBlock div {
+    margin: 20px;
+}
+.columnThatShouldGrow {
+    flex-grow: 1;
+  }
+.myImage {
+   max-width: 100px;
+}
+
+
