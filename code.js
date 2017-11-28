@@ -1,4 +1,6 @@
-import $ from "jquery";
+/* global require */
+let movieData = require("./data");
+let $ = require("jquery");
 function renderMovie(data){
     $(".infosection h1").text(data.title);
     $(".infosection p").text(data.review);
@@ -23,6 +25,6 @@ function renderMovie(data){
     changeStarRating(rating);
   });
 
-  import {movieData} from "./data";
+
   
   renderMovie(movieData);
