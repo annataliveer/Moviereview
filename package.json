@@ -1,0 +1,33 @@
+{
+  "name": "gitsida",
+  "version": "1.0.0",
+  "description": "",
+  "main": "code.js",
+  "scripts": {
+    "styles": "lessc styles.less distribution/styles.css",
+    "bundle": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copyindex": "cp template.html distribution/index.html",
+    "lintless": "stylelint styles.less",
+    "lintjs": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annataliveer/Moviereview.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annataliveer/Moviereview/issues"
+  },
+  "homepage": "https://github.com/annataliveer/Moviereview#readme",
+  "devDependencies": {
+    "eslint": "^4.12.0",
+    "less": "^2.7.3",
+    "stylelint": "^8.3.1",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
