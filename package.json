@@ -6,8 +6,8 @@
   "scripts": {
     "styles": "lessc styles.less distribution/styles.css",
     "bundle": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "copyindex": "cp template.html distribution/index.html",
+    "build": "npm run styles && npm run bundle && npm run copyindex",
     "lintless": "stylelint styles.less",
     "lintjs": "eslint ."
   },
